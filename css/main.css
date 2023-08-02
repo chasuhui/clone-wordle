@@ -1,0 +1,105 @@
+/* 헤더바 */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 10px 10px 10px 10px;
+  border-bottom: 1px solid whitesmoke;
+  margin-bottom: 10px;
+}
+
+.header__menu img {
+  width: 25px;
+}
+
+.header__title {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Roboto Slab", serif;
+}
+
+.header__icons img {
+  width: 25px;
+}
+
+/* 메인바 */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.board-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(220, 216, 216);
+  width: 60px;
+  height: 60px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.keyboard-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.keyboard-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  width: 40px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.keyboard-column__enter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  width: 60px;
+  height: 60px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.keyboard-column__back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  width: 60px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.keyboard-column__back img {
+  width: 25px;
+}
